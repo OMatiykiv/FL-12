@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1, p, a, button {
+    color: #777;
+}
+body {
+    width: 100%;
+}
+header .container {
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+header .container h1 {
+    font-size: 16px;
+}
+header nav a {
+    display:inline-block;
+    text-align: center;
+    vertical-align: center;
+    padding: 0 1vw;                  
+    text-decoration: none;
+    opacity: 0.8;
+}
+nav a:hover {
+    color: #bfba55;
+}
+#about {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(.././img/home-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 95vh;
+}
+#about h2 {
+    color: #fff;
+    font-size: 4rem;
+    padding-top: 35vh;
+    display: flex;
+    justify-content: center;
+}
+#about p {
+    color: #bfba55;
+    display: flex;
+    justify-content: center;
+}
+#about button {
+    margin: 40px auto;
+    padding: 15px 25px;
+    display: flex;
+}
+button {
+    border-radius: 40px;
+    background-color: #fff;
+}
+button:hover {
+    transform: translate(1px, 1px);
+}
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+.post {
+    margin: 20vh 0;
+}
+.post:not(:last-child) {
+    border-bottom: .5px solid #777;
+}
+.post > img {
+    width: 100%;
+}
+.post h2 {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+}
+.author {
+    display: flex;
+    flex-direction: row;
+}
+.author img {
+    width: 60px;
+    border-radius: 50%;
+}
+.author p {
+    padding: 20px 10px;
+}
+.date p {
+    padding: 20px 10px;
+}
+.comments p {
+    padding: 17px 10px;
+}
+.post > p {
+    margin: 4vh 0;
+}
+.post button {
+    padding: 15px 25px;
+    margin-bottom: 10vh;
+}
+footer {
+    padding: 10vh 15vw;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.copyright {
+    width: 40%;
+}
+#contact {
+    width: 40%;
+}
+.footer-column > * {
+    margin-bottom: 20px;
+}
+.footer-column > h2 {
+    color: #fff;
+}
